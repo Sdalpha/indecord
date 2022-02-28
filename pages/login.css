@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgba(10, 20, 31, 1);
+}
+
+h1{
+    color: rgba(224, 225, 221, 1);
+    font-weight: bolt;
+    font-size: 27.5px;
+    /* border: 2px solid red; */
+  
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.left{
+    /* border: 2px solid rebeccapurple; */
+    width: 50%;
+    min-height: 100%;
+}
+.right{
+    /* border: 2px solid rebeccapurple; */
+    width: 70%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right .login{
+    /* border: 2px dotted red; */
+    height: 50%;
+    width: 50%;
+}
+.right .login{
+    display: grid;
+    flex-wrap: 1;   
+}
+input{
+    width: 82%;
+    height: 50%;
+    border-radius: 20px;
+    background: transparent;
+    background-color: rgba(23, 33, 44, 1);
+    outline: none;
+    border: none;
+    color: white;
+}
+button{
+  width: 140px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn{
+    height: 40px;
+    /* border: 2px solid pink; */
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+}
+

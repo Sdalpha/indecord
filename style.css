@@ -9,14 +9,47 @@
 body{
     background: rgba(10, 20, 31, 1);
 }
+header{
+    height: 100%;
+    min-width: 90vh;
+}
 
 header nav{
-  
+    /* padding: 1% 4%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid yellow;
 }
-.login_btn{
+
+/*btn for gradient type*/
+.btn a{
+    position: relative;
+    color: white;
+    height: 57.69px;
+    width: 179px;
+    display: block;
+    text-align: center;
+    border-radius: 28.1074px;
+    text-decoration: none;
+    background-image: linear-gradient(#F9B145,#F72585);
+ }
+ .btn a span{
+    height: 88%;
+    width: 96%; 
+    background: #0A141F;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 28.1074px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: capitalize;
+    transform: translate(-50%, -50%);  
+ }
+ /*btn end*/
+/* .login_btn{
     text-decoration: none;
     color: white;
     border-style: none;
@@ -27,7 +60,7 @@ header nav{
     padding: 5px;
     width: 120px;
     font-size: 16px;
-}
+} */
 
 header nav ul li {
     display: flex;
@@ -39,8 +72,12 @@ ul li a{
     color: aliceblue;
 }
 .container{
+    /* padding: 0px 4px; */
+    padding: 1%;
     width: 100%;
+    border: 3px solid royalblue;
     /* background: rgb(90, 16, 71); */
+
     height: 86.5vh;
     display: flex;
 }
@@ -49,25 +86,54 @@ ul li a{
     /* background: rgb(80, 255, 80); */
     width: 50%;
     height: 35.7rem;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .rightSide{
     /* background: palevioletred; */
     width: 50%;
     height: 35.7rem;
+    border: 5px dotted red;
+   
+
 }
 
-.getStarted{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 300px;
+.getStarted a{
+    
+    position: relative;
+    color: white;
+    height: 57.69px;
+    width: 179px;
+    display: block;
+    text-align: center;
+    border-radius: 28.1074px;
+    text-decoration: none;
+    background-image: linear-gradient(#F9B145,#F72585);
 }
-.getStarted button{
+.getClass span{
+    height: 88%;
+    width: 96%; 
+    background: #0A141F;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 28.1074px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: capitalize;
+    transform: translate(-50%, -50%);
+}
+
+/*.getStarted button{
     border-style: none;
     border: 2px solid ;
     border-radius: 30px;
-    padding: 10px;
+    
     font-size: 20px;
-}
+} */
 .tagline h1{
     color: white;
     text-align: right;
@@ -95,3 +161,17 @@ ul li a{
 }
 
 
+/* .effect2 div{
+    height: 3px ;
+    width: 3px;
+    background-color: white;
+    margin: 0 3px 8px;
+}
+.efect2{
+    left: 3%;
+    bottom: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+} */
