@@ -6,11 +6,7 @@
     font-family: 'Poppins', sans-serif;
     
 }
-body{
-    /*  */
-    /* height: 100%;
-    min-width: 90vh; */
-}
+
 header{
     width: 100%;
     min-height: 100vh;
@@ -19,9 +15,6 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     
-}
-.logo{
-
 }
 .logo img{
     width: 200px;
@@ -64,9 +57,6 @@ nav{
     position: relative;
 }
 /*btn for gradient type*/
-.btn{
-    ;
-}
 .btn a{
 
     position: relative;
